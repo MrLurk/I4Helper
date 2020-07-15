@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eee !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+header {
+	height: 220px;
+	background: #236ee7;
+}
+
+.me_head_info_txt {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.me_head_info_txt_avatar {
+	width: 112px;
+	height: 112px;
+	background-color: rgba(255, 255, 255, 0.35);
+	border: 4px solid rgba(255, 255, 255, 0.5);
+	border-radius: 60px;
+	float: left;
+	margin: 50px 0 0 30px;
+	position: relative;
+}
+
+.me_head_info_txt_avatar img {
+	width: 112px;
+	height: 112px;
+	border-radius: 56px;
+	position: absolute;
+	z-index: 2;
+}
+
+.me_head_info_txt dl {
+	margin: 50px 0 0 20px;
+	float: left;
+	color: white;
+}
+
+
+.me_head_info_txt dt {
+	font-size: 38px;
+	font-family: "Microsoft Yahei";
+	line-height: 66px;
+}
+
+
+.me_head_info_txt dd {
+	font-size: 24px;
+	font-family: "Microsoft Yahei";
+	line-height: 40px;
+	color: rgba(255, 255, 255, 0.80);
+}
+
+.me_head_info_txt dd span {
+	display: block;
+	float: left;
+}
+
+.me_head_info_txt dd span img {
+	margin-bottom: 4px;
+}
+
+
+.me_head_icon {
+	height: 148px;
+	background: white;
+}
+
+
+.me_head_icon a {
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 100%;
+}
+
+
+.me_head_icon a img {
+	display: block;
+	margin: 32px auto 0 auto;
+}
+
+.me_head_icon a span {
+	display: block;
+	font-size: 24px;
+	color: #666666;
+	margin: 10px;
+}
+
+
+.me_more {
+	margin-top: 20px;
+	background: white;
+}
+
+
+.me_more h3 {
+	border-bottom: 1px solid #eee;
+	padding: 20px;
+	font-size: 26px;
+	color: #666;
+	background: #fff;
+	font-weight: 400;
+	line-height: 45px;
+}
+
+.me_more_icon {
+	overflow: hidden;
+}
+
+
+
+.me_more_icon a {
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.me_more_icon img {
+	display: block;
+	margin: 35px auto 0 auto;
+}
+
+.me_more_icon span {
+	display: block;
+	font-size: 24px;
+	color: #666666;
+	margin: 10px;
+}
+
+.textlist {
+	background: white;
+	margin-top: 20px;
+}
+
+
+
+.textlist ul {
+	background: white;
+	margin-top: 20px;
+}
+
+
+
+.textlist ul a {
+	border: 1px solid rgba(238, 238, 238, 0.4);
+	padding: 0 0 0 30px;
+	font-size: 28px;
+	color: #333333;
+	overflow: hidden;
+	display: block;
+	line-height: 105px;
+	height: 98px;
+}
+
+
+.textlist ul a span {
+	display: block;
+	float: left;
+}
+
+
+.textlist ul a span img {
+	display: block;
+	float: left;
+	margin: 30px 20px 0 0;
+}
+
+
+
+
+.textlist ul a span:nth-child(2) {
+	width: calc(100% - 190px);
+}
+
+
+.textlist ul a span:nth-child(2) img {
+	display: block;
+	float: right;
+	margin: 36px 0 0 0;
+}

@@ -1,0 +1,123 @@
+body {
+	background: #eee;
+	color: #333;
+	font: 28px/1.75 'Microsoft Yahei', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.nav {
+	height: 88px;
+	background: #236ee7;
+	line-height: 88px;
+	text-align: center;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+}
+
+.nav-back {
+	float: left;
+	font-size: 32px;
+	margin-left: 15px;
+}
+
+
+.nav-back img {
+	line-height: 88px;
+	margin-top: 22px;
+	float: left;
+}
+
+.nav-back a {
+	color: #FFF;
+	line-height: 88px;
+	display: block;
+	margin-left: 7px;
+	float: left;
+}
+
+.nav h1 {
+	width: 200px;
+	margin: 0 auto;
+	color: #FFF;
+	text-align: center;
+	line-height: 88px;
+	font-size: 36px;
+}
+
+.banner {
+	margin-top: 88px;
+}
+
+.iconbar {
+	margin-bottom: 12px;
+	padding: 10px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+.iconbar a {
+	display: block;
+	width: 25%;
+	float: left;
+	font-size: 26px;
+	text-align: center;
+	padding: 20px 0 8px 0;
+}
+
+.iconbar a img {
+	width: 84px;
+	height: 84px;
+}
+
+.iconbar a span {
+	display: block;
+	line-height: 68px;
+	color: #666;
+}
+
+.floatad {
+	position: fixed;
+	z-index: 2;
+	right: 10px;
+	bottom: 170px;
+	width: 220px;
+	height: 280px;
+}
+
+.floatad .toInstall {
+	background: url(../../img/floatad.png) no-repeat center center;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.floatad .close {
+	display: block;
+	width: 60px;
+	height: 80px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.app-list {
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+
+.wrapper-scroll {}
+
+
+.footer {
+	background: #eee;
+	text-align: center;
+	line-height: 108px;
+	height: 108px;
+}
+
+.loading{
+	display: block;
+	color: #999;
+}

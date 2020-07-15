@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Microsoft Yahei';
+	background: #eee;
+}
+
+
+.search {
+	height: 88px;
+	background: #236ee7;
+	padding-left: 20px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.search-input {
+	width: calc(100% - 40px);
+	height: 64px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+	border-radius: 6px;
+	border: none;
+	text-decoration: none;
+	outline: none;
+	background: #fff url(../../img/searchber_input_icon.png) no-repeat 12px 14px;
+	font-size: 30px;
+	padding: 0 20px 0 60px;
+}
+
+.cancel_search {
+	height: 100%;
+	width: 88px;
+	float: left;
+	background: #236ee7;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 88px;
+	margin-left: 20px;
+}
+
+
+.search-hot {
+	margin-top: 105px;
+}
+
+
+.search-hot p {
+	font-size: 26px;
+	color: #999;
+	padding: 20px;
+}
+
+.search-hot-content {}
+
+
+.search-hot-content {
+	margin-left: 20px;    
+	padding-bottom: 35px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.search-hot-content span {
+	font-size: 26px;
+	display: inline-block;
+	line-height: 60px;
+	height: 60px;
+	text-align: center;
+	padding: 0 20px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	margin: 0 20px 20px 0;
+	flex-grow: 1;
+	border-color: rgba(51, 51, 51, 0.2);
+	background-color: rgba(51, 51, 51, 0.04);
+	color: rgb(51, 51, 51);
+}
+
+.search-hot-content span.hot {
+	border-color: rgba(255, 0, 0, 0.2);
+	background-color: rgba(255, 0, 0, 0.04);
+	color: rgb(255, 0, 0);
+}
+
+
+
+.search-result{
+	/* position: fixed; */
+	margin-top: 88px;
+/* 	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 3; */
+	width: 100%;
+	background:#eee;
+}

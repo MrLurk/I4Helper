@@ -1,0 +1,73 @@
+
+.footer-nav {
+	height: 102px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 2;
+	width: 100%;
+	background: #fafafa;
+	border-top: 2px solid #eee;
+}
+
+
+.footer-nav a{
+	display: block;
+	width: 20%;
+	float: left;
+	text-align: center;
+	border-top: 1px so;
+}
+
+.footer-nav span {
+	margin-top: 64px;
+    font-size: 22px;
+    color: #666;
+	display: block;
+}
+
+.hide-footer {
+	background: #eee;
+	height: 108px;
+}
+
+.tabbar_main_featured {
+	background: url(../../img/tabbar_main_featured.png) center 14px no-repeat;
+}
+
+
+.tabbar_main_featured.std{
+	background: url(../../img/tabbar_main_featured_select.png) center 14px no-repeat;
+}
+
+.tabbar_main_apps {
+	background: url(../../img/tabbar_main_apps.png) center 14px no-repeat;
+}
+
+.tabbar_main_apps.std {
+	background: url(../../img/tabbar_main_apps_select.png) center 14px no-repeat;
+}
+
+
+.tabbar_main_games {
+	background: url(../../img/tabbar_main_games.png) center 14px no-repeat;
+}
+
+.tabbar_main_games.std {
+	background: url(../../img/tabbar_main_games_select.png) center 14px no-repeat;
+}
+
+.tabbar_main_search {
+	background: url(../../img/tabbar_main_search.png) center 14px no-repeat;
+}
+
+.tabbar_main_search.std{
+	background: url(../../img/tabbar_main_search_select.png) center 14px no-repeat;
+}
+
+.tabbar_main_me {
+	background: url(../../img/tabbar_main_me.png) center 14px no-repeat;
+}
+
+.tabbar_main_me.std{
+	background: url(../../img/tabbar_main_me_select.png) center 14px no-repeat;
+}

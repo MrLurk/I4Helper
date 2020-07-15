@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=0">
+		<title>搜索</title>
+		<link rel="shortcut icon" href="../img/favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="../img/favicon.png">
+		<meta name="description" content="爱思助手官网-爱思苹果助手是一款专业的苹果刷机助手、苹果越狱工具，也是一款全面管理苹果手机的助手。爱思助手免费为苹果用户提供：备份数据、资料管理以及铃声壁纸资源和应用APP快速安全下载。">
+		<link href="../css/search/index.css" rel="stylesheet" />
+		<link href="../css/search/search.css" rel="stylesheet" />
+		<link href="../css/common.css" rel="stylesheet" />
+		<link href="../css/applist.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="search">
+			<form action="javascript:;" method="post">
+				<input class="search-input" type="search" oninput="inputSearch()" onfocus="clickSearch()" onblur="leaveSearch()"
+				 placeholder="输入应用游戏关键字" />
+				<a href="javascript:;" onclick="cancelSearch()" class="cancel_search" style="display: none;">取消</a>
+			</form>
+
+		</div>
+		<div class="search-hot">
+			<p>热门搜索</p>
+			<div class="search-hot-content">
+				<!-- 
+				數據示例
+				<span>23</span>
+				<span class="hot">3321</span>
+				-->
+			</div>
+		</div>
+
+		<div class="search-result" style="display: none;">
+			<div class="app-list">
+				<div class="wrapper-scroll">
+					<ul>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-nav">
+			<a class="tabbar_main_featured" href="../appstore/index.html">
+				<span>精选</span>
+			</a>
+			<a class="tabbar_main_apps" href="javascript:;">
+				<span>应用</span>
+			</a>
+			<a class="tabbar_main_games" href="javascript:;">
+				<span>游戏</span>
+			</a>
+			<a class="tabbar_main_search std" href="javascript:;">
+				<span>搜索</span>
+			</a>
+			<a class="tabbar_main_me" href="../me/index.html">
+				<span>我的</span>
+			</a>
+		</div>
+	</body>
+</html>
+
+
+<script src="../js/jquery.1.9.1.min.js"></script>
+<script src="../js/jquery.ex.js"></script>
+<script src="../js/search/index.js"></script>

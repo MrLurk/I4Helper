@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.title {
+	height: 200px;
+	line-height: 200px;
+	color: #236ee7;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+
+.btn-close {
+	position: absolute;
+	display: block;
+	width: 80px;
+	height: 80px;
+	z-index: 2;
+	background: url(../../img/login_close.png) no-repeat center center;
+}
+
+
+
+.form-box {
+	margin: 0 20px;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	border-radius: 6px;
+}
+
+
+.form-box input {
+	border: none;
+	background: none;
+	display: block;
+	height: 40px;
+	padding: 28px 30px;
+	width: calc(100% - 60px);
+	font-size: 28px;
+}
+
+.form-box input:first-child {
+	border-bottom: 1px solid #ddd;
+}
+
+.form-item {
+	position: relative;
+}
+
+.form-item img {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	right: 20px;
+	top: 30%;
+	z-index: 2;
+	display: block;
+}
+
+
+
+.btn {
+	margin: 30px 20px;
+	display: block;
+	text-align: center;
+	background: #236ee7;
+	line-height: 96px;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 32px;
+}
+
+.btn-login {
+	color: rgba(255, 255, 255, 0.80);
+}
+
+.btn-register {
+	background: #fff;
+	color: #236ee7;
+	border: 1px solid #ddd;
+}
+
+
+.operation-tab {
+	margin-top: 35px;
+}
+
+.operation-tab a{
+	color: #999;
+	font-size: 28px;
+}
+
+
+.login-more{
+	float: left;
+	margin-left: 20px;
+}
+
+
+.find-password{
+	float: right;
+	margin-right: 20px;
+}
